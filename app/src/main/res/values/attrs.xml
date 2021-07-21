@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTypeface">
+        <attr name="custom_typeface" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ChatEditText">
+        <attr name="allowedMimeTypes" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="images" value="1"/>
+        </attr>
+        <attr name="ChatEditText_typeface" format="string" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ProgressButton">
+        <attr name="state" format="enum">
+            <enum name="IDLE" value="1"/>
+            <enum name="INDETERMINATE" value="2"/>
+            <enum name="DETERMINATE" value="3"/>
+            <enum name="FINISHED" value="4"/>
+        </attr>
+        <attr name="cancelable" format="boolean"/>
+        <attr name="hideOnFinish" format="boolean"/>
+        <attr name="progressIndeterminateSweepAngle" format="integer"/>
+
+        <attr name="idleBackgroundColor" format="color"/>
+        <attr name="finishBackgroundColor" format="color"/>
+        <attr name="indeterminateBackgroundColor" format="color"/>
+        <attr name="determinateBackgroundColor" format="color"/>
+
+        <attr name="idleBackgroundDrawable" format="reference"/>
+        <attr name="finishBackgroundDrawable" format="reference"/>
+        <attr name="indeterminateBackgroundDrawable" format="reference"/>
+        <attr name="determinateBackgroundDrawable" format="reference"/>
+
+        <attr name="progress" format="integer"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="progressMargin" format="dimension"/>
+        <attr name="progressDeterminateColor" format="color"/>
+        <attr name="progressIndeterminateColor" format="color"/>
+
+        <attr name="idleIconDrawable" format="reference"/>
+        <attr name="idleIconWidth" format="dimension"/>
+        <attr name="idleIconHeight" format="dimension"/>
+
+        <attr name="cancelIconDrawable" format="reference"/>
+        <attr name="cancelIconWidth" format="dimension"/>
+        <attr name="cancelIconHeight" format="dimension"/>
+
+        <attr name="finishIconDrawable" format="reference"/>
+        <attr name="finishIconWidth" format="dimension"/>
+        <attr name="finishIconHeight" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="cs_CircularSeekBar">
+        <attr name="cs_circle_style">
+            <enum name="butt" value="0" />
+            <enum name="round" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="cs_progress" format="integer"/>
+        <attr name="cs_max" format="integer"/>
+        <attr name="cs_negative_enabled" format="boolean"/>
+        <attr name="cs_move_outside_circle" format="boolean"/>
+        <attr name="cs_maintain_equal_circle" format="boolean"/>
+        <attr name="cs_use_custom_radii" format="boolean"/>
+        <attr name="cs_lock_enabled" format="boolean"/>
+        <attr name="cs_circle_x_radius" format="dimension" />
+        <attr name="cs_circle_y_radius" format="dimension" />
+        <attr name="cs_circle_stroke_width" format="dimension" />
+        <attr name="cs_disable_pointer" format="boolean"/>
+        <attr name="cs_pointer_stroke_width" format="dimension" />
+        <attr name="cs_pointer_halo_width" format="dimension" />
+        <attr name="cs_pointer_halo_border_width" format="dimension"/>
+        <attr name="cs_circle_fill" format="color"/>
+        <attr name="cs_circle_color" format="color"/>
+        <attr name="cs_circle_progress_color" format="color"/>
+        <attr name="cs_pointer_color" format="color"/>
+        <attr name="cs_pointer_halo_color" format="color"/>
+        <attr name="cs_pointer_halo_color_ontouch" format="color"/>
+        <attr name="cs_pointer_alpha_ontouch" format="integer"/>
+        <attr name="cs_pointer_angle" format="float"/>
+        <attr name="cs_start_angle" format="float"/>
+        <attr name="cs_end_angle" format="float"/>
+        <attr name="cs_disable_progress_glow" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ZoomageView">
+        <attr name="zoomage_zoomable" format="boolean" />
+        <attr name="zoomage_translatable" format="boolean" />
+        <attr name="zoomage_restrictBounds" format="boolean" />
+        <attr name="zoomage_animateOnReset" format="boolean" />
+        <attr name="zoomage_doubleTapToZoom" format="boolean" />
+        <attr name="zoomage_doubleTapToZoomScaleFactor" format="float" />
+        <attr name="zoomage_autoCenter" format="boolean" />
+        <attr name="zoomage_minScale" format="float" />
+        <attr name="zoomage_maxScale" format="float" />
+        <attr name="zoomage_autoResetMode" format="enum">
+            <enum name="UNDER" value="0" />
+            <enum name="OVER" value="1" />
+            <enum name="ALWAYS" value="2" />
+            <enum name="NEVER" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

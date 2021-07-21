@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <com.android.sdrive.Component.Elements.mTextView
+        android:id="@+id/upload_CenterTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:paddingLeft="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textColor="#8e8d8d"
+        android:textSize="15dp"
+        app:custom_typeface="fonts/AvenirLTStd.ttf" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/upload_file_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_file_zips" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <com.android.sdrive.Component.Elements.mTextView
+                android:id="@+id/upload_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="14dp"
+                app:custom_typeface="fonts/AvenirLTStd.ttf" />
+
+            <com.android.sdrive.Component.Elements.mTextView
+                android:id="@+id/upload_file_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ced4da"
+                android:textSize="12dp"
+                app:custom_typeface="fonts/AvenirLTStd.ttf" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <com.android.sdrive.Component.Elements.ProgressButton
+                android:id="@+id/fileUploadBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:progressWidth="1.3dp"
+                app:progressIndeterminateColor="@color/colorAccent"
+                app:progressDeterminateColor="@color/colorAccent"
+                app:indeterminateBackgroundColor="#ffffff"
+                app:determinateBackgroundColor="#ffffff"
+                android:layout_centerInParent="true"
+                app:maxProgress="100" />
+
+            <ImageView
+                android:id="@+id/item_drop_menu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_drop_menu" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

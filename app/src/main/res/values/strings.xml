@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">V-LOCKER</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="login_success" translatable="false">login success</string>
+    <string name="login" translatable="false">LOGIN</string>
+    <string name="sign_up" translatable="false">Sign Up >>></string>
+    <string name="user_name" translatable="false">Your Full Name</string>
+    <string name="u_email" translatable="false">Email</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="repeat_password" translatable="false">Repeat Password</string>
+    <string name="user_mobile" translatable="false">Mobile Number</string>
+    <string name="forgot_your_password" translatable="false">Forgot password?</string>
+    <string name="go" translatable="false">login</string>
+
+    <string name="next" translatable="false">NEXT</string>
+    <string name="register" translatable="false">REGISTER</string>
+    <string name="forget_pas" translatable="false">Forget Password</string>
+
+    <string name="about_us_app" translatable="false">An Introduction to Virtual Locker
+Virtual locker createsapplication on your smart phone or tablet from being accessed by others without your knowledge. You can lock any photos, videos, audio and documents you desire using a password of your choice. Virtual Lock allows you to:\n
+•	Upload pictures.\n
+•	Upload videos.\n
+•	Upload documents.\n
+•	Upload audio.\n
+It is considered a potentially powerful tool to make business environments more secure. On the other hand it’s a tool that can be used by advanced home users as well.
+The newest “cloud-based” storage system, Virtual Locker provides users withthe ability to access and open files online with anyone-at any time. Simply select file types into Virtual Locker, and you will be able to download and store files, collaborate with others on your documents, and more! All users are provided with unlimited of storage for free. We can secure your data and files.\n
+
+SVP students will be getting their own account for login on district devices, a virtual locker storage and drop boxes. In order to create your account.\n
+
+
+Please note there are a few things to know prior to registering:\n
+
+1.    Your full legal name\n
+2.    Your Email id\n
+3.    A strong password (see below for tips and requirements on creating a strong password)\n
+
+You can find this information below on the Technology website:\n
+
+Password must meet the following criteria:\n
+•	Minimum of 8 characters\n
+•	Must contain at least one numeral(0-9)\n
+•	The following special characters can be used as your choice-!@#$*%\n
+•	Must be different from the last 3 passwords used\n
+Virtual Locker is a secure android -based application that provides access to the files and folders stored in your device from anywhere using an application, such as virtual locker.\n
+ 
+</string>
+
+
+    <string name="sagar" translatable="false">
+        He is Capable of planning Good Software project  he Moduled information and He simply Transformed the All Hardwork of his team into the Programming\nRole: Programmer , Designer \nSkill: Android , (CI) Codeigniter, gradle, php ,css , xml , html
+    </string>
+    <string name="namdev" translatable="false">
+        He is Capable of Good designing the user interface\nRole: graphics designer\nSkill: expert in photoshop and frontend devloper and in MySQL, Oracle
+    </string>
+    <string name="chouhan" translatable="false">
+        He designed the login and registration page. He has very stable mind\nRole: Design a Login and Ragistration Page\nSkill: Expert in Designing
+    </string>
+    <string name="nilesh" translatable="false">
+        He Collects whole information about the project which was necessarily Required.\nRole: design About us and animations\nSkill: designing
+    </string>
+    <string name="temur" translatable="false">
+        He Collects whole information about the project which was necessarily Required.\nRole: he design logo of applications and app images\nSkill: editing and photoshop
+    </string>
+    <string name="jayshree" translatable="false">
+        She Collects whole information about the project which was necessarily Required.\nRole: design splash screen and select font for the application\nSkill: Expert in selecting designs and fonts
+    </string>
+
+
+</resources>

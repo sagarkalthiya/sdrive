@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ac1dc</color>
+    <color name="colorPrimaryDark">#95ABB9</color>
+    <color name="colorAccent">#0EADFE</color>
+
+
+
+    <color name="tabTextColor">#fcfcfc</color>
+
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorShadow">#e6ecf0</color>
+
+
+    <!--- login colors  -->
+
+    <color name="login_textview_color">#FFCC00</color>
+    <color name="login_hint_color">#c5c5c5</color>
+    <color name="login_edittext_color">#2fa881</color>
+
+    <!--- login colors  -->
+
+    <!--- Ragistration colors  -->
+    <color name="ragistration_back_color">#f06292</color>
+
+    <color name="forgetpass_background_color">#ab47bc</color>
+
+
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000</color>
+
+
+
+    <!--  Useful colors  -->
+    <color name="colorTrueBlack">#000000</color>
+    <color name="colorTrueWhite">#ffffff</color>
+    <color name="colorGrey">#bdbdbd</color>
+    <color name="colorLightGrey">#e0e0e0</color>
+    <color name="colorTransparent">#00ffffff</color>
+</resources>
